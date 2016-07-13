@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.name                  = "YKWebPImage"
-  s.version               = "0.0.4"
+  s.version               = "1.0"
   s.homepage              = "https://github.com/yakatak/YKWebPImage"
   s.license               = { :type => 'Apache 2.0', :file => 'LICENSE' }
   s.author                = { "Yakatak" => "support@yakatak.com" }
   s.social_media_url      = "https://twitter.com/yakatak"
   s.ios.deployment_target = '7.0'
-  s.source                = { :git => "https://github.com/yakatak/YKWebPImage.git", :tag => "v0.0.4" }
+  s.source                = { :git => "https://github.com/yakatak/YKWebPImage.git", :tag => "1.0" }
   s.source_files          = 'YKWebPImage/**/*.{m,h}'
   s.requires_arc          = true
   s.vendored_frameworks   = 'WebP.framework'
